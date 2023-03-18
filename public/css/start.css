@@ -1,0 +1,117 @@
+body{
+  background-color: #3ff4ee;
+}
+.frontline{
+  text-align:center;
+  font-size: 50px;
+  color: rgb(255, 72, 0);
+}
+.navbar-brand{
+  font-size: 30px;
+  padding-top: 10px;
+}
+.navbar-dark .navbar-nav .nav-link{
+  font-size: 2rem;
+  font-weight: 600;
+  color:#fff;
+}
+.navbar-dark{
+  background-color:#82e97b ;
+}
+.nav-link:hover{
+  text-decoration: none;
+}
+.nav-item{
+  padding: 10px;
+}
+.container-fluid{
+  padding: 1% 1% 2%;
+}
+.heading{
+  font-size: 30px;
+  text-align: center;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:40px;
+}
+.front{
+  height: 200px;
+  width:200px;
+  border-radius: 100%;
+  margin:auto 22% auto;
+}
+.home{
+  margin-top: 40px;
+}
+.footer{
+  text-align: center;
+  background-color: #7bdce9;
+  height: 40px;
+  font-size: 20px;
+  color: #fff;
+  padding:2px 0 2px;
+  margin-top: 80px;
+}
+.btn{
+  background-color: #33ccad;
+  color: #fff;
+  font-size: 20px;
+}
+
+table{
+	margin:100;
+	align-content:center;
+	align-items:center;
+	width:100%;
+	background-color:#ffffff;
+
+}
+.heading1 th{
+  text-align: center;
+	background-color: #76ef20;
+	font-family:'Work Sans', sans-serif;
+	padding:20px;
+	text-align:center;
+  font-size: 20px;
+  color: #fff;
+}
+.header2 td{
+  text-align: center;
+	padding:20px;
+	text-align:center;
+	font-family:'Roboto', sans-serif;
+  background-color:#e3e7e7;
+    font-size: 15px;
+    color:#0f0b0b;
+}
+#so{
+  border-radius: 40px;
+}
+#red{
+  color:red;
+}
+#blue{
+  color:blue;
+}
+#green{
+  color:green;
+}
+#home{
+  height: 80%;
+  width: 90%;
+  margin-left: 50px;
+  border-radius: 10px;
+  
+}
+.nav-link{
+color: rgb(212, 48, 48);
+
+border-radius: 50px;
+}
+
+#ji{
+  color: rgb(40, 118, 236);
+}

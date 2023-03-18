@@ -1,0 +1,36 @@
+<%- include("partials/header") %>
+<div class="heading">
+  <span style="background-color: aqua; border-radius: 10px; margin-bottom: 20px;">CUSTOMER DETAILS</span>
+</div>
+<div class="list">
+  <table style="background-color: aliceblue;">
+    <thead class="heading1">
+      <tr>
+        <th style="color: rgb(249, 108, 0);" >Customer Name</th>
+        <th style="color: rgb(249, 108, 0);">E-mail</th>
+        <th style="color: rgb(249, 108, 0);">Mobile Number</th>
+        <th style="color: rgb(249, 108, 0);">Balance</th>
+      </tr>
+    </thead>
+    <%for(let i=0;i<user.length;i++){%>
+
+      <tbody class="header2">
+        <tr style="background-color: aliceblue;">
+          <form action="/showcustomer" method="post" >
+          <td style="color: black;"><%=user[i].name%></td>
+          <td style="color: black;"><%=user[i].email%></td>
+          <td style="color: black;"><%=user[i].mnumber%></td>
+          <td style="color: black;"><%=user[i].credits%></td>
+
+            <!-- <td><button class="btn btn-lg" type="submit" name="view" value="<%=user[i]._id%>"  style="background-color: chartreuse; -->
+            <!-- /* color: red;"  >View</button></td> */ -->
+          </form>
+        </tr>
+      </tbody>
+    <%}%>
+
+  </table>
+</div>
+
+
+<%- include("partials/footer") %>
